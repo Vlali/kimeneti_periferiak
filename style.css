@@ -3,7 +3,6 @@
     --navLinkColor:rgb(245, 231, 231);
     --navLinkBackgroundColor:rgb(93, 73, 84);
     --burgerBackgroundColor: rgb(226, 226, 226);
-
     --footerBackgroundColor: rgb(175, 194, 231);
     
 }
@@ -54,7 +53,7 @@ a{
 }
 .burger{
     display: none;
-    cursor: pointer
+    cursor: pointer;
 }
 .welcome_main{
     min-height: 90vh;
@@ -67,7 +66,7 @@ main{
     margin-top: 0vh;
 }
 
-
+/* footer */
 footer{
     height: 5vh;
     background-color: var(--footerBackgroundColor);
