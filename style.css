@@ -3,7 +3,7 @@
     --navLinkColor:rgb(245, 231, 231);
     --navLinkBackgroundColor:rgb(93, 73, 84);
     --burgerBackgroundColor: rgb(226, 226, 226);
-    --footerBackgroundColor: rgb(175, 194, 231);
+    --footerBackgroundColor: rgb(59, 88, 185);
     
 }
 
@@ -55,9 +55,9 @@ a{
     display: none;
     cursor: pointer;
 }
-.welcome_main{
+.first_main{
     min-height: 90vh;
-    background-color: cornflowerblue;
+    background-image: url("images/picture_around_images.jpg");
 }
 
 
