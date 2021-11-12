@@ -1,6 +1,7 @@
 :root{
     --navBackgroundColor: rgb(59, 88, 185);
     --navLinkColor:rgb(245, 231, 231);
+    --burgerBackgroundColor: rgb(226, 226, 226);
     
 }
 
@@ -10,10 +11,8 @@
 }
 
 
-main{
-    margin-top: 0;
-}
 
+/* navigáció */
 nav{
     display: flex;
     justify-content: space-around;
@@ -42,4 +41,33 @@ a{
 .icon{
     max-width: 100%;
     max-height: 100%;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: var(--burgerBackgroundColor);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.burger{
+    display: none;
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    margin-top: 0;
 }
