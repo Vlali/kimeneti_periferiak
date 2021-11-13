@@ -71,9 +71,10 @@ a:active{
 /* main */
 main{
     margin-top: 0vh;
+    min-height: 90vh;
 }
 .first_main{
-    min-height: 90vh;
+    
     background-image: url("images/picture_around_images.jpg");
     display: flex;
     flex-direction: column;
