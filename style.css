@@ -146,6 +146,12 @@ footer{
     main{
 		margin-top: 5vh;
 	}
+    .projector_gif{
+        display: none;
+    }
+    .speaker_gif{
+        display: none;
+    }
 }
 
 /*menu icon changing*/
