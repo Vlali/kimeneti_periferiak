@@ -67,15 +67,24 @@ main{
     background-image: url("images/picture_around_images.jpg");
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
-.first_main_center{
+.center_gifs{
     display: flex;
     width: 100%;
     justify-content: center;
 }
+.center_welcome_message{
+    text-align: center;
+}
 .first_main h1{
     color: white;
+}
+.projector_gif{
+    max-width: 17%;
+}
+.speaker_gif{
+    max-width: 13%;
 }
 
 
