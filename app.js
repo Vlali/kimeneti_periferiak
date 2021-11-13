@@ -35,44 +35,43 @@ const navSlide = () => {
 			burger.classList.toggle('toggle');
 		});
 	});
-
-	// window.addEventListener('resize', () => {
-	// 	nav.style.opacity = 1;
-	// });
-	// console.log(`The width of the screen is ${window.screen.width}`);
 };
 const anchorColor=()=>{
 	const anchor=document.querySelectorAll('.link_to_other_page');
-	const width  = window.innerWidth || document.documentElement.clientWidth || 
-	document.body.clientWidth;
-	const currentPage=window.location.href.split("#")[1];
-	console.log(anchor);
+	const currentPage=window.location.href.split("/")[3];	
 	switch(currentPage){
-		case undefined:
+		case "":
 			anchor[0].style.borderBottom="1px solid red";
 			break;
+		case "index.html":
+			anchor[0].style.borderBottom="1px solid red";
+			break;
+		case "bevezetes.html":
+			anchor[1].style.borderBottom="1px solid red";
+			break;
+		case "monitorok.html":
+			anchor[2].style.borderBottom="1px solid red";
+			break;
+		case "grafikus_kartyak.html":
+			anchor[3].style.borderBottom="1px solid red";
+			break;
+		case "nyomtatok.html":
+			anchor[4].style.borderBottom="1px solid red";
+			break;
+		case "plotterek.html":
+			anchor[5].style.borderBottom="1px solid red";
+			break;
+		case "projektorok.html":
+			anchor[6].style.borderBottom="1px solid red";
+			break;
+		case "hangszorok.html":
+			anchor[7].style.borderBottom="1px solid red";
+			break;
 		default:
-			console.log("nope");
+			break;
 
 	}
-	console.log(currentPage);
-	anchor.forEach((anch)=>{
-		anch.addEventListener('click',()=>{
-			anchor.forEach((anche)=>{
-				anche.style.borderBottom='';
-			});
-			anch.style.borderBottom='1px solid red';
-			
-		})
-	}
-	)
 }
-
-
 navSlide();
 anchorColor();
-/*JavaScript classList
 
-JavaScript classList is a DOM property of JavaScript that allows for styling the CSS (Cascading Style Sheet) classes of an element. JavaScript classList is a read-only property that returns the names of the CSS classes.*/
-
-// https://www.javatpoint.com/javascript-classlist
