@@ -112,13 +112,13 @@ footer{
 }
 
 
-@media screen and (max-width: 960px) and (min-width:671px){
+@media screen and (min-width:1001px){
     /* navigáció */
     .nav-links{
-        width: 60%;
+        width: 70%;
     }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1000px) {
       /* navigáció */
     nav{
         position: fixed;
