@@ -2,6 +2,7 @@ const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
+	const anchor=document.querySelectorAll('.link_to_other_page');
 	const width  = window.innerWidth || document.documentElement.clientWidth || 
 	document.body.clientWidth;
 	
@@ -25,7 +26,6 @@ const navSlide = () => {
 
 	navLinks.forEach((link) => {
 		link.addEventListener('click', () => {
-			if(width<671){	
 			nav.classList.toggle('nav-active');
 			flag = true;
 			//if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
@@ -37,17 +37,13 @@ const navSlide = () => {
 			}
 
 			burger.classList.toggle('toggle');
-		}else{
-			console.log("oalala");
-			link.style.backgroundColor="red";
-		}
 		});
 	});
+
 	// window.addEventListener('resize', () => {
 	// 	nav.style.opacity = 1;
 	// });
 	// console.log(`The width of the screen is ${window.screen.width}`);
-
 };
 
 
