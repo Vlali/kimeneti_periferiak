@@ -41,8 +41,11 @@ a{
     width: 2%;
 }
 .icon{
+    min-width: 99.9%;
+    min-height: 99.9%;
     max-width: 100%;
     max-height: 100%;
+   
 }
 .burger div{
     width: 25px;
@@ -54,6 +57,13 @@ a{
 .burger{
     display: none;
     cursor: pointer;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: white;
+    border-bottom: 1px solid red;
 }
 
 
@@ -69,22 +79,28 @@ main{
     flex-direction: column;
     justify-content: space-around;
 }
+.first_main{
+    color: white;
+}
 .center_gifs{
     display: flex;
     width: 100%;
     justify-content: center;
 }
+.projector_gif{
+    max-width: 18%;
+}
+.speaker_gif{
+    max-width: 14%;
+}
+
 .center_welcome_message{
     text-align: center;
 }
-.first_main h1{
-    color: white;
-}
-.projector_gif{
-    max-width: 17%;
-}
-.speaker_gif{
-    max-width: 13%;
+.einstein_quote{
+    text-align: center;
+    font-size: 1.5rem;
+   
 }
 
 
