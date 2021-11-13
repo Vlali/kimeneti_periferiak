@@ -2,10 +2,6 @@ const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
-	const anchor=document.querySelectorAll('.link_to_other_page');
-	const width  = window.innerWidth || document.documentElement.clientWidth || 
-	document.body.clientWidth;
-	
 	let flag = false;
 	//Toggle Nav
 
@@ -45,10 +41,36 @@ const navSlide = () => {
 	// });
 	// console.log(`The width of the screen is ${window.screen.width}`);
 };
+const anchorColor=()=>{
+	const anchor=document.querySelectorAll('.link_to_other_page');
+	const width  = window.innerWidth || document.documentElement.clientWidth || 
+	document.body.clientWidth;
+	const currentPage=window.location.href.split("#")[1];
+	console.log(anchor);
+	switch(currentPage){
+		case undefined:
+			anchor[0].style.borderBottom="1px solid red";
+			break;
+		default:
+			console.log("nope");
+
+	}
+	console.log(currentPage);
+	anchor.forEach((anch)=>{
+		anch.addEventListener('click',()=>{
+			anchor.forEach((anche)=>{
+				anche.style.borderBottom='';
+			});
+			anch.style.borderBottom='1px solid red';
+			
+		})
+	}
+	)
+}
 
 
 navSlide();
-
+anchorColor();
 /*JavaScript classList
 
 JavaScript classList is a DOM property of JavaScript that allows for styling the CSS (Cascading Style Sheet) classes of an element. JavaScript classList is a read-only property that returns the names of the CSS classes.*/
