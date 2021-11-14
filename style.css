@@ -156,7 +156,7 @@ footer{
 @media  screen and (min-width: 400px) and (max-width:499px) {
      /* navigáció */
  .icon_container{
-    width: 10%;
+    width: 9%;
 }
    /*main*/
 .center_gif img{
@@ -174,10 +174,6 @@ footer{
     width: 80%;
 }
 }
-
-
-
-
 @media screen and (min-width:1001px){
     /* navigáció */
    
