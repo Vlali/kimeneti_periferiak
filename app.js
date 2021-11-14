@@ -68,7 +68,9 @@ const anchorColor=()=>{
 			anchor[7].style.borderBottom="1px solid red";
 			break;
 		default:
+			anchor[0].style.borderBottom="1px solid red";
 			break;
+			
 
 	}
 }
