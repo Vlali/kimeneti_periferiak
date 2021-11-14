@@ -79,6 +79,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .first_main{
     color: white;
@@ -105,19 +106,14 @@ main{
     max-height: 100%;
 }
 
-.projector_gif{
-    max-width: 20%;
-}
-.speaker_gif{
-    max-width: 16%;
-}
+
 
 .center_welcome_message{
     text-align: center;
 }
 .einstein_quote{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
    
 }
 
