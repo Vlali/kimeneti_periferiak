@@ -42,8 +42,7 @@ a{
     display: flex;
 }
 .icon{
-    min-width: 99.9%;
-    min-height: 99.9%;
+
     max-width: 100%;
     max-height: 100%;
    
@@ -152,18 +151,27 @@ footer{
         width: 50%;
     }
 }
-@media  screen and (max-width:499px) {
-    /* navigáció */
-    .icon_container{
-        width: 10%;
-    
-    }
-     /*main*/
-     .center_gif img{
-        width: 65%;
-    }
+@media  screen and (min-width: 400px) and (max-width:499px) {
+     /* navigáció */
+ .icon_container{
+    width: 10%;
 }
-
+   /*main*/
+.center_gif img{
+    width: 65%;
+}
+     
+}
+@media  screen and (max-width: 399px){
+ /* navigáció */
+ .icon_container{
+    width: 12%;
+}
+/*main*/
+.center_gif img{
+    width: 80%;
+}
+}
 
 
 
