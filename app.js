@@ -7,7 +7,7 @@ const navSlide = () => {
 
 	burger.addEventListener('click', () => {
 		nav.style.opacity = 1;
-		nav.classList.toggle('nav-active'); //thats move our side nav
+		nav.classList.toggle('nav-active'); //thats move our side nava
 		navLinks.forEach((link, index) => {
 			if (link.style.animation) {
 				link.style.animation = ''; //if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
