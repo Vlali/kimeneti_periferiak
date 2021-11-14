@@ -124,7 +124,10 @@ footer{
     /* navigáció */
     .icon_container{
         width: 5%;
-    
+    }
+    /*main*/
+    .center_gif img{
+        width: 30%;
     }
 }
 @media  screen and (min-width: 600px) and (max-width:799px) {
@@ -133,6 +136,10 @@ footer{
         width: 7%;
     
     }
+    /*main*/
+    .center_gif img{
+        width: 50%;
+    }
 }
 @media  screen  and (min-width: 500px) and (max-width:599px) {
     /* navigáció */
@@ -140,12 +147,20 @@ footer{
         width: 7%;
     
     }
+      /*main*/
+      .center_gif img{
+        width: 50%;
+    }
 }
 @media  screen and (max-width:499px) {
     /* navigáció */
     .icon_container{
         width: 10%;
     
+    }
+     /*main*/
+     .center_gif img{
+        width: 65%;
     }
 }
 
@@ -191,9 +206,8 @@ footer{
     main{
 		margin-top: 5vh;
 	}
-    .center_gif img{
-        width: 70%;
-    }
+    
+   
     
 }
 
