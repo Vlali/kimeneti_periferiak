@@ -83,27 +83,30 @@ main{
 .first_main{
     color: white;
 }
-.center_gifs{
+.center_gif{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-/* .center_image_container{
+
+
+.graphic_card_image_container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.graphic_card_image_container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.projector_image_container{
     width: 20%;
-} */
-.speaker_image_container{
-width: 19%;
 }
-.speaker_image_container img{
+.projector_image_container img{
     max-width: 100%;
     max-height: 100%;
 }
-/* .center_image_container img{
-    max-width: 100%;
-    max-height: 100%;
-    /* min-height: 99%;
-    min-width: 99%; */
-} */
+
 .projector_gif{
     max-width: 20%;
 }
