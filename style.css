@@ -100,17 +100,39 @@ main{
 }
 .bevezetes-h1-container{
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    
+    margin-bottom: 1%;
+    
 } 
 .section-bevezetes{
-    width: 60%;
+    /* margin-top: 2%; */
+    width: 50%;
+    display: grid;
+    justify-items: center;
+     
+}
+.bevezetes-szovegresz{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bevezetes-linkek{
+    margin-left: 2%;
+}
+.section-bevezetes-kepek{
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 200px; 
+    grid-gap: 50px;
 }
-.bevezeto-szoveg{
-    margin-top: 1rem;
+.bevezetes-image-container{
+    display: grid;
+    justify-items: center;
+}
+.bevezeto-kepalatti-szoveg{
+    margin-top: 0.2rem;
     text-align: center;
 }
 .section-bevezetes img{
