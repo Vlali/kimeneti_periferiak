@@ -5,7 +5,7 @@
     --burgerBackgroundColor: rgb(226, 226, 226);
     --footerBackgroundColor: rgb(59, 88, 185);
     --firstCenterColor: rgb(226, 226, 226);
-    --articleBackgroundColor: rgb(255, 255, 255);
+    --articleBackgroundColor: rgb(177, 213, 219);
     
 }
 
@@ -112,6 +112,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
+    
 } 
 .bevezetes-linkek{
     margin-left: 2%;
@@ -125,6 +126,7 @@ main{
 .bevezetes-image-container{
     display: grid;
     justify-items: center;
+    
 }
 .section-bevezetes img{
     max-width: 90%;
