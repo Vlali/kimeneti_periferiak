@@ -112,7 +112,6 @@ main{
     justify-content: center;
     align-items: center;
     
-    
 } 
 .bevezetes-linkek{
     margin-left: 2%;
@@ -124,8 +123,9 @@ main{
     
 }
 .bevezetes-image-container{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
    
 }
