@@ -107,17 +107,13 @@ main{
     
 } 
 .section-bevezetes{
-    /* margin-top: 2%; */
     width: 50%;
-    /* display: grid;
-    justify-items: center; */
-     
-}
-.bevezetes-szovegresz{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+     
 }
+
 .bevezetes-linkek{
     margin-left: 2%;
 }
