@@ -109,8 +109,8 @@ main{
 .section-bevezetes{
     /* margin-top: 2%; */
     width: 50%;
-    display: grid;
-    justify-items: center;
+    /* display: grid;
+    justify-items: center; */
      
 }
 .bevezetes-szovegresz{
@@ -122,15 +122,14 @@ main{
     margin-left: 2%;
 }
 .section-bevezetes-kepek{
-    width: 90%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
+    grid-gap: 100px;
 }
-.bevezetes-image-container{
-    display: grid;
-    justify-items: center;
-}
+
 .bevezeto-kepalatti-szoveg{
     margin-top: 0.2rem;
     text-align: center;
