@@ -67,7 +67,7 @@ a:hover{
 
 
 
-/* main */
+/*index main */
 main{
     margin-top: 0vh;
     min-height: 90vh;
@@ -93,12 +93,31 @@ main{
     width: 25%;
 }
 
+/*bevezetes*/
+.main-bevezetes{
+    display: grid;
+    justify-items: center;
+}
+.section-bevezetes{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.section-bevezetes img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 
 /* footer */
 footer{
     height: 5vh;
     background-color: var(--footerBackgroundColor);
 }
+
+
 
 @media  screen and (min-width: 1601px) {
     /* navigáció */
@@ -174,6 +193,11 @@ footer{
     width: 80%;
 }
 }
+
+
+
+
+
 @media screen and (min-width:1001px){
     /* navigáció */
    
@@ -212,6 +236,10 @@ footer{
     main{
 		margin-top: 5vh;
 	}
+    /*bevezetes*/
+    .section-bevezetes{
+        grid-template-columns: 1fr;
+    }
     
    
     
