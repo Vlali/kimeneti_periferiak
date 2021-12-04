@@ -5,6 +5,7 @@
     --burgerBackgroundColor: rgb(226, 226, 226);
     --footerBackgroundColor: rgb(59, 88, 185);
     --firstCenterColor: rgb(226, 226, 226);
+    --articleBackgroundColor: rgb(255, 255, 255);
     
 }
 
@@ -71,9 +72,10 @@ a:hover{
 main{
     margin-top: 0vh;
     min-height: 90vh;
+    background-image: url("images/picture_around_images.jpg");
 }
 .first_center{
-    background-image: url("images/picture_around_images.jpg");
+   
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -103,6 +105,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: var(--articleBackgroundColor);
 }
 .bevezetes-h1-container{
     display: flex;
@@ -119,7 +122,6 @@ main{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 100px;
 }
-
 .bevezeto-kepalatti-szoveg{
     margin-top: 0.2rem;
     text-align: center;
