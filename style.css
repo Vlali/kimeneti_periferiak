@@ -110,7 +110,7 @@ main{
     grid-gap: 200px; 
 }
 .bevezeto-szoveg{
-    margin-top: 1re;
+    margin-top: 1rem;
     text-align: center;
 }
 .section-bevezetes img{
@@ -235,6 +235,7 @@ footer{
         font-size: 1.3rem;
     }
 }
+/*Itt valt at avigacios sav*/
 @media screen and (max-width: 1000px) {
       /* navigáció */
     nav{
@@ -267,6 +268,9 @@ footer{
     .section-bevezetes{
         grid-template-columns: 1fr;
         justify-items: center;
+        grid-gap: 100px;
+        /* margin-bottom: 2%;
+        margin-top: 2%;  */
     }
     
    
