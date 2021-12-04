@@ -107,12 +107,11 @@ main{
     width: 60%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 200px;
-    
-    
-
-    
-    
+    grid-gap: 200px; 
+}
+.bevezeto-szoveg{
+    margin-top: 1re;
+    text-align: center;
 }
 .section-bevezetes img{
     max-width: 100%;
