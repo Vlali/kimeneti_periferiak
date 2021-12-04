@@ -93,15 +93,25 @@ main{
     width: 25%;
 }
 
-/*bevezetes*/
-.main-bevezetes{
+/* bevezetes*/
+ .main-bevezetes{
     display: grid;
     justify-items: center;
 }
+.bevezetes-h1-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+} 
 .section-bevezetes{
-    max-width: 80%;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-gap: 200px;
+    
+    
+
+    
     
 }
 .section-bevezetes img{
@@ -239,6 +249,7 @@ footer{
     /*bevezetes*/
     .section-bevezetes{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     
    
