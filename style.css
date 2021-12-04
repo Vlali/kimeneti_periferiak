@@ -147,15 +147,24 @@ footer{
     }
     
 }
-
-@media  screen and (min-width: 1000px) and (max-width:1400px) {
+@media  screen and (min-width: 1201px) and (max-width:1400px) {
+   /* navigáció */
+   .icon_container{
+    width: 3.4%;
+}
+    /*bevezetes*/
+    .section-bevezetes{
+        width: 70%;
+    }
+}
+@media  screen and (min-width: 1000px) and (max-width:1200px) {
     /* navigáció */
     .icon_container{
         width: 3.4%;
     }
     /*bevezetes*/
     .section-bevezetes{
-        width: 82%;
+        width: 86%;
     }
 }
 @media  screen and (min-width: 800px) and (max-width:999px) {
