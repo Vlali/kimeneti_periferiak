@@ -2,7 +2,6 @@ const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
-	const currentPage=window.location.href.split("/")[3];	
 	let flag = false;
 	//Toggle Nav
 
@@ -20,17 +19,11 @@ const navSlide = () => {
 			}
 		});
 		burger.classList.toggle('toggle'); //this rotates the lines
-		if(currentPage=="index.html"){
-			nav.style.height="90vh";
-		}else{
-			nav.style.height="95vh";
-		}
 	}); /*The toggle() method toggles between hide() and show() for the selected elements. This method checks the selected elements for visibility. show() is run if an element is hidden. hide() is run if an element is visible - This creates a toggle effect. ... Tip: This method can also be used to toggle between custom functions.*/
 
 	navLinks.forEach((link) => {
 		link.addEventListener('click', () => {
 			nav.classList.toggle('nav-active');
-			nav.style.transition="transform 0s ease-in"
 			flag = true;
 			//if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
 			if (flag === true) {
