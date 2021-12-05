@@ -146,6 +146,10 @@ main{
 footer{
     height: 5vh;
     background-color: var(--footerBackgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
