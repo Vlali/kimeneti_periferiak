@@ -30,6 +30,7 @@ const navSlide = () => {
 	navLinks.forEach((link) => {
 		link.addEventListener('click', () => {
 			nav.classList.toggle('nav-active');
+			nav.style.transition="transform 0s ease-in"
 			flag = true;
 			//if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
 			if (flag === true) {
