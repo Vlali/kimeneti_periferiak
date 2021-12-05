@@ -8,6 +8,11 @@ const navSlide = () => {
 
 	burger.addEventListener('click', () => {
 		nav.style.opacity = 1;
+		if(currentPage=="index.html"){
+			nav.style.height="90vh";
+		}else{
+			nav.style.height="95vh";
+		}
 		nav.classList.toggle('nav-active'); //thats move our side nava
 		navLinks.forEach((link, index) => {
 			if (link.style.animation) {
@@ -37,11 +42,7 @@ const navSlide = () => {
 		});
 	});
 	
-	if(currentPage=="index.html"){
-		nav.style.height="90vh";
-	}else{
-		nav.style.height="95vh";
-	}
+	
 };
 const anchorColor=()=>{
 	const anchor=document.querySelectorAll('.link_to_other_page');
