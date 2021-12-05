@@ -128,7 +128,7 @@ main{
     align-items: center;
    
 }
-.section-bevezetes img{
+.bevezetes-image-container img{
     max-width: 85%;
     max-height: 85%;
 }
