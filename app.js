@@ -39,6 +39,7 @@ const navSlide = () => {
 const anchorColor=()=>{
 	const anchor=document.querySelectorAll('.link_to_other_page');
 	const currentPage=window.location.href.split("/")[3];	
+	const nav = document.querySelector('.nav-links');
 	switch(currentPage){
 		case "":
 			anchor[0].style.borderBottom="1px solid red";
@@ -72,6 +73,11 @@ const anchorColor=()=>{
 			break;
 			
 
+	}
+	if(currentPage=="index.html"){
+		nav.style.height="90vh";
+	}else{
+		nav.style.height="95vh";
 	}
 }
 navSlide();
