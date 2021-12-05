@@ -18,13 +18,13 @@ const navSlide = () => {
 					index / 7 + 0.5
 				}s`;
 			}
-			if(currentPage=="index.html"){
-				nav.style.height="90vh";
-			}else{
-				nav.style.height="95vh";
-			}
 		});
 		burger.classList.toggle('toggle'); //this rotates the lines
+		if(currentPage=="index.html"){
+			nav.style.height="90vh";
+		}else{
+			nav.style.height="95vh";
+		}
 	}); /*The toggle() method toggles between hide() and show() for the selected elements. This method checks the selected elements for visibility. show() is run if an element is hidden. hide() is run if an element is visible - This creates a toggle effect. ... Tip: This method can also be used to toggle between custom functions.*/
 
 	navLinks.forEach((link) => {
