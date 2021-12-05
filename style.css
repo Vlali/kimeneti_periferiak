@@ -94,7 +94,7 @@ main{
 }
 
 /* bevezetes*/
- .main-bevezetes{
+ .main-article{
     display: grid;
     justify-items: center;
 }
