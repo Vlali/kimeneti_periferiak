@@ -176,7 +176,7 @@ footer{
 }
     /*bevezetes*/
     .section-bevezetes{
-        width: 70%;
+        width: 65%;
     }
 }
 @media  screen and (min-width: 1000px) and (max-width:1200px) {
@@ -184,10 +184,11 @@ footer{
     .icon_container{
         width: 3.4%;
     }
-    /*bevezetes*/
-    .section-bevezetes{
+     /*bevezetes*/
+     .section-bevezetes{
         width: 70%;
     }
+    
 }
 @media  screen and (min-width: 800px) and (max-width:999px) {
     /* navigáció */
@@ -198,10 +199,7 @@ footer{
     .center_gif img{
         width: 30%;
     }
-    /*bevezetes*/
-    .section-bevezetes{
-        width: 70%;
-    }
+   
 }
 @media  screen and (min-width: 600px) and (max-width:799px) {
     /* navigáció */
@@ -213,10 +211,7 @@ footer{
     .center_gif img{
         width: 50%;
     }
-     /*bevezetes*/
-     .section-bevezetes{
-        width: 70%;
-    }
+    
 }
 @media  screen  and (min-width: 500px) and (max-width:599px) {
     /* navigáció */
@@ -238,6 +233,10 @@ footer{
 .center_gif img{
     width: 65%;
 }
+ /*bevezetes*/
+ .section-bevezetes{
+    width: 90%;
+}
      
 }
 @media  screen and (max-width: 399px){
@@ -248,6 +247,10 @@ footer{
 /*main*/
 .center_gif img{
     width: 80%;
+}
+ /*bevezetes*/
+ .section-bevezetes{
+    width: 90%;
 }
 }
 
