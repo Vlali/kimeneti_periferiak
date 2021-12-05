@@ -150,6 +150,67 @@ footer{
 
 
 
+@media screen and (min-width:1001px){
+    /* navigáció */
+   
+    .nav-links{
+        width: 70%;
+    }
+    .first_center{
+        font-size: 1.3rem;
+    }
+}
+/*Itt valt at avigacios sav*/
+@media screen and (max-width: 1000px) {
+      /* navigáció */
+    nav{
+        position: fixed;
+    }
+    .nav-links{
+        position: fixed;
+        right: 0px;
+        height: 90vh;
+        top: 5vh;
+        background-color: var(--navLinkBackgroundColor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        transform: translateX(100%); 
+		transition: transform 0.5s ease-in; 
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    /* main */
+    main{
+		margin-top: 5vh;
+	}
+    /*bevezetes*/
+    
+    .section-bevezetes-kepek{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        
+    }
+    .bevezetes-image-container{
+        width: 80%;
+    }
+    .section-bevezetes{
+        width: 70%;
+    }
+    
+   
+    
+}
+
+
+
 @media  screen and (min-width: 1601px) {
     /* navigáció */
     .icon_container{
@@ -257,65 +318,6 @@ footer{
 
 
 
-
-@media screen and (min-width:1001px){
-    /* navigáció */
-   
-    .nav-links{
-        width: 70%;
-    }
-    .first_center{
-        font-size: 1.3rem;
-    }
-}
-/*Itt valt at avigacios sav*/
-@media screen and (max-width: 1000px) {
-      /* navigáció */
-    nav{
-        position: fixed;
-    }
-    .nav-links{
-        position: fixed;
-        right: 0px;
-        height: 90vh;
-        top: 5vh;
-        background-color: var(--navLinkBackgroundColor);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 45%;
-        transform: translateX(100%); 
-		transition: transform 0.5s ease-in; 
-    }
-    .nav-links li{
-        opacity: 0;
-    }
-    .burger{
-        display: block;
-    }
-    /* main */
-    main{
-		margin-top: 5vh;
-	}
-    /*bevezetes*/
-    
-    .section-bevezetes-kepek{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-items: center;
-        
-    }
-    .bevezetes-image-container{
-        width: 80%;
-    }
-    .section-bevezetes{
-        width: 70%;
-    }
-    
-   
-    
-}
 
 /*menu icon changing*/
 
