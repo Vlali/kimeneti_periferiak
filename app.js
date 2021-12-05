@@ -8,11 +8,7 @@ const navSlide = () => {
 
 	burger.addEventListener('click', () => {
 		nav.style.opacity = 1;
-		if(currentPage=="index.html"){
-			nav.style.height="90vh";
-		}else{
-			nav.style.height="95vh";
-		}
+		
 		nav.classList.toggle('nav-active'); //thats move our side nava
 		navLinks.forEach((link, index) => {
 			if (link.style.animation) {
@@ -21,6 +17,11 @@ const navSlide = () => {
 				link.style.animation = `navLinkFade 0.5s ease forwards ${
 					index / 7 + 0.5
 				}s`;
+			}
+			if(currentPage=="index.html"){
+				nav.style.height="90vh";
+			}else{
+				nav.style.height="95vh";
 			}
 		});
 		burger.classList.toggle('toggle'); //this rotates the lines
