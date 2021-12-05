@@ -198,6 +198,10 @@ footer{
     .center_gif img{
         width: 30%;
     }
+    /*bevezetes*/
+    .section-bevezetes{
+        width: 70%;
+    }
 }
 @media  screen and (min-width: 600px) and (max-width:799px) {
     /* navigáció */
@@ -208,6 +212,10 @@ footer{
     /*main*/
     .center_gif img{
         width: 50%;
+    }
+     /*bevezetes*/
+     .section-bevezetes{
+        width: 70%;
     }
 }
 @media  screen  and (min-width: 500px) and (max-width:599px) {
@@ -297,6 +305,9 @@ footer{
     }
     .bevezetes-image-container{
         width: 80%;
+    }
+    .section-bevezetes{
+        width: 70%;
     }
     
    
