@@ -287,18 +287,16 @@ footer{
 		margin-top: 5vh;
 	}
     /*bevezetes*/
-    .section-bevezetes{
-        grid-template-columns: 1fr;
-        justify-items: center;
-        grid-gap: 100px;
-        /* margin-bottom: 2%;
-        margin-top: 2%;  */
-    }
+    
     .section-bevezetes-kepek{
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
         
+    }
+    .bevezetes-image-container{
+        width: 80%;
     }
     
    
