@@ -2,6 +2,7 @@ const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
+	const currentPage=window.location.href.split("/")[3];	
 	let flag = false;
 	//Toggle Nav
 
@@ -35,11 +36,16 @@ const navSlide = () => {
 			burger.classList.toggle('toggle');
 		});
 	});
+	
+	if(currentPage=="index.html"){
+		nav.style.height="90vh";
+	}else{
+		nav.style.height="95vh";
+	}
 };
 const anchorColor=()=>{
 	const anchor=document.querySelectorAll('.link_to_other_page');
 	const currentPage=window.location.href.split("/")[3];	
-	const nav = document.querySelector('.nav-links');
 	switch(currentPage){
 		case "":
 			anchor[0].style.borderBottom="1px solid red";
@@ -71,14 +77,8 @@ const anchorColor=()=>{
 		default:
 			anchor[0].style.borderBottom="1px solid red";
 			break;
-			
-
 	}
-	if(currentPage=="index.html"){
-		nav.style.height="90vh";
-	}else{
-		nav.style.height="95vh";
-	}
+	
 }
 navSlide();
 anchorColor();
