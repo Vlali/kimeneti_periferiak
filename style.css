@@ -126,8 +126,11 @@ span {
   text-align: center;
 }
 
-.oldal-linkek * {
+.oldal-linkek {
   padding: 0.5rem;
+}
+.oldal-linkek * {
+  margin-bottom: 0.5rem;
 }
 .oldal-linkek {
   position: sticky;
