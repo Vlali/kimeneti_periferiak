@@ -15,9 +15,6 @@
 
 /* put article on the two sides of the welcome */
 
-p {
-  text-align: justify;
-}
 /* p *{
 
 } */
@@ -97,6 +94,9 @@ main {
   display: grid;
   justify-items: center;
 }
+
+/*cikkek*/
+
 .linkek-es-szoveg {
   width: 50%;
 }
@@ -134,7 +134,10 @@ article * {
   justify-content: center;
   align-items: center;
 }
-
+p {
+  text-align: justify;
+  line-height: 1.2rem;
+}
 .bevezetes-felsorolas {
   margin-left: 1.5rem;
 }
