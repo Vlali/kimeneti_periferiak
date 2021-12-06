@@ -15,6 +15,13 @@
 
 /* put article on the two sides of the welcome */
 
+p {
+  text-align: justify;
+}
+/* p *{
+
+} */
+
 /* navigáció */
 nav {
   display: flex;
@@ -137,6 +144,10 @@ article * {
 .bold {
   margin: 0;
   font-weight: bold;
+}
+.underline {
+  margin: 0;
+  text-decoration: underline;
 }
 .bevezetes-kepfeletti-szoveg {
   text-align: center;
