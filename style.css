@@ -110,8 +110,18 @@ main {
 .section-bevezetes-kepek {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
 }
+.bevezetes-image-container {
+  width: 70%;
+}
+
+/* .section-bevezetes-kepek {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}*/
 .bevezetes-image-container {
   display: flex;
   flex-direction: column;
@@ -188,15 +198,6 @@ footer {
   }
   /*bevezetes*/
 
-  .section-bevezetes-kepek {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-  }
-  .bevezetes-image-container {
-    width: 70%;
-  }
   .article {
     width: 70%;
   }
