@@ -314,6 +314,9 @@ footer {
   }
   /*bevezetes*/
   .linkek-es-szoveg {
-    width: 80%;
+    width: 100%;
+  }
+  .bevezetes-image {
+    max-width: 45%;
   }
 }
