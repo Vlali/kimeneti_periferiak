@@ -122,11 +122,10 @@ article {
 article * {
   margin: 0.5rem;
 }
-.bevezetes-h1-container {
+.cím {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.5rem;
 }
 
 .bevezetes-felsorolas {
@@ -135,7 +134,7 @@ article * {
 .bevezetes-felsorolas * {
   margin: 0.2rem;
 }
-span {
+.bold {
   margin: 0;
   font-weight: bold;
 }
