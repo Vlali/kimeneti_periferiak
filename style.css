@@ -100,17 +100,16 @@ main {
   align-items: center;
   margin: 0.5rem;
 }
-.bevezetes-szoveg {
+article * {
   margin: 0.5rem;
 }
-.bevezetes-linkek {
-  margin: 0.5rem 1.5rem;
+.bevezetes-felsorolas {
+  margin-left: 1.5rem;
 }
 
 .section-bevezetes-kepek {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
 }
 .bevezetes-image-container {
@@ -126,10 +125,6 @@ main {
 .bevezetes-image-container img {
   max-width: 85%;
   max-height: 85%;
-}
-
-.bevezeto-kepalatti-szoveg {
-  text-align: center;
 }
 
 /*monitorok*/
