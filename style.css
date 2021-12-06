@@ -174,9 +174,18 @@ p {
 .monitorok-image-container {
   max-width: 65%;
 }
-.monitorok-image-container img {
+/* .monitorok-image-container img {
   max-width: 100%;
+  min-width: 99.99%;
+  max-height: 100%;
+  min-width: ;
+} */
+.katodsugarcsoves {
+  display: block;
+  max-width: 100%;
+  margin: 0.5rem auto;
 }
+
 /* footer */
 footer {
   height: 5vh;
