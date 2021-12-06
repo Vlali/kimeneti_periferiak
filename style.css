@@ -1,359 +1,314 @@
-:root{
-    --navBackgroundColor: rgb(59, 88, 185);
-    --navLinkColor:rgb(226, 226, 226);
-    --navLinkBackgroundColor:rgb(93, 73, 84);
-    --burgerBackgroundColor: rgb(226, 226, 226);
-    --footerBackgroundColor: rgb(59, 88, 185);
-    --firstCenterColor: rgb(226, 226, 226);
-    --articleBackgroundColor: rgb(177, 213, 219);
-    
+:root {
+  --navBackgroundColor: rgb(59, 88, 185);
+  --navLinkColor: rgb(226, 226, 226);
+  --navLinkBackgroundColor: rgb(93, 73, 84);
+  --burgerBackgroundColor: rgb(226, 226, 226);
+  --footerBackgroundColor: rgb(59, 88, 185);
+  --firstCenterColor: rgb(226, 226, 226);
+  --articleBackgroundColor: rgb(177, 213, 219);
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 
 /* put article on the two sides of the welcome */
 
-
 /* navigáció */
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5vh;
-    position: static;
-    top: 0;
-    width: 100%;
-    background-color: var(--navBackgroundColor);
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  position: static;
+  top: 0;
+  width: 100%;
+  background-color: var(--navBackgroundColor);
 }
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
 }
-.nav-links li{
-    list-style: none;
+.nav-links li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: var(--navLinkColor);
+a {
+  text-decoration: none;
+  color: var(--navLinkColor);
 }
-.icon_container{
-    display: flex;
+.icon_container {
+  display: flex;
 }
-.icon{
-
-    max-width: 100%;
-    max-height: 100%;
-   
+.icon {
+  max-width: 100%;
+  max-height: 100%;
 }
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: var(--burgerBackgroundColor);
-    margin: 5px;
-    transition: all 0.3s ease;
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--burgerBackgroundColor);
+  margin: 5px;
+  transition: all 0.3s ease;
 }
-.burger{
-    display: none;
-    cursor: pointer;
+.burger {
+  display: none;
+  cursor: pointer;
 }
-a:hover{
-    color: red;
+a:hover {
+  color: red;
 }
-
-
-
 
 /*index main */
-main{
-    margin-top: 0vh;
-    min-height: 90vh;
-    background-image: url("images/picture_around_images.jpg");
+main {
+  margin-top: 0vh;
+  min-height: 90vh;
+  background-image: url("images/picture_around_images.jpg");
 }
-.first_center{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    color: var(--firstCenterColor);
+.first_center {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: var(--firstCenterColor);
 }
 
-.center_gif{
-    display: flex;
-    width: 100%;
-    justify-content: center;
+.center_gif {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
-.center_gif img{
-    width: 25%;
+.center_gif img {
+  width: 25%;
 }
 
 /* bevezetes*/
- .main-article{
-    display: grid;
-    justify-items: center;
+.main-center {
+  display: grid;
+  justify-items: center;
 }
-.article{
-    width: 50%;
-    background-color: var(--articleBackgroundColor);
+.article {
+  width: 50%;
+  background-color: var(--articleBackgroundColor);
 }
-.bevezetes-h1-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5rem;  
-} 
-.bevezetes-szoveg{
-    margin: 0.5rem;     
+.bevezetes-h1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
 }
-.bevezetes-linkek{
-    margin: 0.5rem 1.5rem; 
+.bevezetes-szoveg {
+  margin: 0.5rem;
 }
-
-.section-bevezetes-kepek{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-}
-.bevezetes-image-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-   
-}
-.bevezetes-image-container img{
-    max-width: 85%;
-    max-height: 85%;
+.bevezetes-linkek {
+  margin: 0.5rem 1.5rem;
 }
 
-.bevezeto-kepalatti-szoveg{
-
-    text-align: center;
+.section-bevezetes-kepek {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.bevezetes-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bevezetes-image-container img {
+  max-width: 85%;
+  max-height: 85%;
 }
 
-
+.bevezeto-kepalatti-szoveg {
+  text-align: center;
+}
 
 /* footer */
-footer{
-    height: 5vh;
-    background-color: var(--footerBackgroundColor);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+footer {
+  height: 5vh;
+  background-color: var(--footerBackgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+@media screen and (min-width: 1001px) {
+  /* navigáció */
 
-
-@media screen and (min-width:1001px){
-    /* navigáció */
-   
-    .nav-links{
-        width: 70%;
-    }
-    .first_center{
-        font-size: 1.3rem;
-    }
+  .nav-links {
+    width: 70%;
+  }
+  .first_center {
+    font-size: 1.3rem;
+  }
 }
 /*Itt valt at avigacios sav*/
 @media screen and (max-width: 1000px) {
-      /* navigáció */
-    nav{
-        position: fixed;
-    }
-    .nav-links{
-        position: fixed;
-        right: 0px;
-        height: 90vh;
-        top: 5vh;
-        background-color: var(--navLinkBackgroundColor);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 45%;
-        transform: translateX(100%); 
-		transition: transform 0.5s ease-in; 
-    }
-    .nav-links li{
-        opacity: 0;
-    }
-    .burger{
-        display: block;
-    }
-    /* main */
-    main{
-		margin-top: 5vh;
-	}
-    /*bevezetes*/
-    
-    .section-bevezetes-kepek{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        justify-items: center;
-        
-    }
-    .bevezetes-image-container{
-        width: 70%;
-    }
-    .article{
-        width: 70%;
-    }
-    
-   
-    
+  /* navigáció */
+  nav {
+    position: fixed;
+  }
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 90vh;
+    top: 5vh;
+    background-color: var(--navLinkBackgroundColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+  /* main */
+  main {
+    margin-top: 5vh;
+  }
+  /*bevezetes*/
+
+  .section-bevezetes-kepek {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .bevezetes-image-container {
+    width: 70%;
+  }
+  .article {
+    width: 70%;
+  }
 }
 /*menu icon changing*/
 
 /*you need to pass it under the media screen*/
 .nav-active {
-	transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 @keyframes navLinkFade {
-	from {
-		opacity: 0;
-		transform: translateX(50px); /*how fast the link are coming*/
-	}
-	to {
-		opacity: 1;
-		transform: translate(0px);
-	}
+  from {
+    opacity: 0;
+    transform: translateX(50px); /*how fast the link are coming*/
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
 }
 
 .toggle .line1 {
-	transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
-	opacity: 0;
+  opacity: 0;
 }
 .toggle .line3 {
-	transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
-
-@media  screen and (min-width: 1601px) {
-    /* navigáció */
-    .icon_container{
-        width: 2.3%;
-    
-    }
+@media screen and (min-width: 1601px) {
+  /* navigáció */
+  .icon_container {
+    width: 2.3%;
+  }
 }
-@media  screen and (min-width: 1401px) and (max-width:1600px) {
-    /* navigáció */
-    .icon_container{
-        width: 2.5%;
-    
-    }
-    /*bevezetes*/
-    .article{
-        width: 60%;
-    }
-    
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+  /* navigáció */
+  .icon_container {
+    width: 2.5%;
+  }
+  /*bevezetes*/
+  .article {
+    width: 60%;
+  }
 }
-@media  screen and (min-width: 1201px) and (max-width:1400px) {
-   /* navigáció */
-   .icon_container{
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  /* navigáció */
+  .icon_container {
     width: 3.4%;
-}
-    /*bevezetes*/
-    .article{
-        width: 65%;
-    }
-}
-@media  screen and (min-width: 1000px) and (max-width:1200px) {
-    /* navigáció */
-    .icon_container{
-        width: 3.4%;
-    }
-     /*bevezetes*/
-     .article{
-        width: 70%;
-    }
-    
-}
-@media  screen and (min-width: 800px) and (max-width:999px) {
-    /* navigáció */
-    .icon_container{
-        width: 5%;
-    }
-    /*main*/
-    .center_gif img{
-        width: 30%;
-    }
-   
-}
-@media  screen and (min-width: 600px) and (max-width:799px) {
-    /* navigáció */
-    .icon_container{
-        width: 7%;
-    
-    }
-    /*main*/
-    .center_gif img{
-        width: 50%;
-    }
-    
-}
-@media  screen  and (min-width: 500px) and (max-width:599px) {
-    /* navigáció */
-    .icon_container{
-        width: 7%;
-    
-    }
-      /*main*/
-      .center_gif img{
-        width: 50%;
-    }
-}
-@media  screen and (min-width: 400px) and (max-width:499px) {
-     /* navigáció */
- .icon_container{
-    width: 9%;
-}
-   /*main*/
-.center_gif img{
+  }
+  /*bevezetes*/
+  .article {
     width: 65%;
+  }
 }
- /*bevezetes*/
- .article{
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  /* navigáció */
+  .icon_container {
+    width: 3.4%;
+  }
+  /*bevezetes*/
+  .article {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  /* navigáció */
+  .icon_container {
+    width: 5%;
+  }
+  /*main*/
+  .center_gif img {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  /* navigáció */
+  .icon_container {
+    width: 7%;
+  }
+  /*main*/
+  .center_gif img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* navigáció */
+  .icon_container {
+    width: 7%;
+  }
+  /*main*/
+  .center_gif img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  /* navigáció */
+  .icon_container {
+    width: 9%;
+  }
+  /*main*/
+  .center_gif img {
+    width: 65%;
+  }
+  /*bevezetes*/
+  .article {
     width: 80%;
+  }
 }
-     
-}
-@media  screen and (max-width: 399px){
- /* navigáció */
- .icon_container{
+@media screen and (max-width: 399px) {
+  /* navigáció */
+  .icon_container {
     width: 12%;
-}
-/*main*/
-.center_gif img{
+  }
+  /*main*/
+  .center_gif img {
     width: 80%;
-}
- /*bevezetes*/
- .article{
+  }
+  /*bevezetes*/
+  .article {
     width: 80%;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
