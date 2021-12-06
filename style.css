@@ -92,35 +92,11 @@ main {
 }
 .linkek-es-szoveg {
   width: 50%;
-  background-color: var(--articleBackgroundColor);
 }
-.bevezetes-h1-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.5rem;
+.linkek-es-szoveg {
+  display: grid;
+  grid-template-columns: 15% 85%;
 }
-article * {
-  margin: 0.5rem;
-}
-.bevezetes-felsorolas {
-  margin-left: 1.5rem;
-}
-span {
-  margin: 0;
-  font-weight: bold;
-}
-.bevezetes-image-container {
-  max-width: 45%;
-  margin: 0 auto;
-}
-.bevezetes-image-container img {
-  max-width: 100%;
-}
-.bevezetes-kepfeletti-szoveg {
-  text-align: center;
-}
-/*monitorok*/
 .oldal-link-sav {
   background-color: green;
   text-align: center;
@@ -140,9 +116,38 @@ span {
   list-style-type: none;
 }
 
-.linkek-es-szoveg {
-  display: grid;
-  grid-template-columns: 15% 85%;
+article {
+  background-color: var(--articleBackgroundColor);
+}
+article * {
+  margin: 0.5rem;
+}
+.bevezetes-h1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.bevezetes-felsorolas {
+  margin-left: 1.5rem;
+}
+.bevezetes-felsorolas * {
+  margin: 0.2rem;
+}
+span {
+  margin: 0;
+  font-weight: bold;
+}
+.bevezetes-kepfeletti-szoveg {
+  text-align: center;
+}
+.bevezetes-image-container {
+  max-width: 45%;
+  margin: 0 auto;
+}
+.bevezetes-image-container img {
+  max-width: 100%;
 }
 
 /* footer */
