@@ -68,7 +68,7 @@ a:hover {
 main {
   margin-top: 0vh;
   min-height: 90vh;
-  background-image: url("images/picture_around_images.jpg");
+  background-image: url("images/hatter/picture_around_images.jpg");
 }
 .first_center {
   height: 90vh;
@@ -127,7 +127,10 @@ article {
   background-color: var(--articleBackgroundColor);
 }
 article * {
-  margin: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .cím {
   display: flex;
@@ -152,17 +155,28 @@ p {
   margin: 0;
   text-decoration: underline;
 }
-.bevezetes-kepfeletti-szoveg {
+.kepfeletti-szoveg {
   text-align: center;
 }
+.image-container {
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+}
+/*bevezetes*/
 .bevezetes-image-container {
   max-width: 45%;
-  margin: 0 auto;
 }
 .bevezetes-image-container img {
   max-width: 100%;
 }
-
+/*monitorok*/
+.monitorok-image-container {
+  max-width: 65%;
+}
+.monitorok-image-container img {
+  max-width: 100%;
+}
 /* footer */
 footer {
   height: 5vh;
