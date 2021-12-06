@@ -158,32 +158,18 @@ p {
 .kepfeletti-szoveg {
   text-align: center;
 }
-.image-container {
+.article-image {
+  display: block;
   margin: 0.5rem auto;
-  display: grid;
-  justify-items: center;
 }
 /*bevezetes*/
-.bevezetes-image-container {
+.bevezetes-image {
   max-width: 45%;
 }
-.bevezetes-image-container img {
-  max-width: 100%;
-}
+
 /*monitorok*/
-.monitorok-image-container {
-  max-width: 65%;
-}
-/* .monitorok-image-container img {
+.crt-monitor {
   max-width: 100%;
-  min-width: 99.99%;
-  max-height: 100%;
-  min-width: ;
-} */
-.katodsugarcsoves {
-  display: block;
-  max-width: 100%;
-  margin: 0.5rem auto;
 }
 
 /* footer */
@@ -361,7 +347,7 @@ footer {
   .linkek-es-szoveg {
     width: 100%;
   }
-  .bevezetes-image-container {
+  .bevezetes-image {
     max-width: 45%;
   }
 }
