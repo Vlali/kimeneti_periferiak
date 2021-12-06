@@ -106,7 +106,10 @@ article * {
 .bevezetes-felsorolas {
   margin-left: 1.5rem;
 }
-
+span {
+  margin: 0;
+  font-weight: bold;
+}
 .bevezetes-image-container {
   max-width: 45%;
   margin: 0 auto;
