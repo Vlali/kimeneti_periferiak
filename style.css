@@ -107,35 +107,33 @@ article * {
   margin-left: 1.5rem;
 }
 
-.section-bevezetes-kepek {
-  width: 100%;
-  display: grid;
-  justify-items: center;
-}
 .bevezetes-image-container {
-  width: 70%;
-}
-
-.bevezetes-image-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.bevezetes-image {
   max-width: 45%;
   margin: 0 auto;
 }
-.bevezetes-image img {
+.bevezetes-image-container img {
   max-width: 100%;
 }
 .bevezetes-kepfeletti-szoveg {
   text-align: center;
 }
 /*monitorok*/
-.oldal-linkek {
+.oldal-link-sav {
   background-color: green;
+  text-align: center;
 }
+
+.oldal-linkek * {
+  padding: 0.5rem;
+}
+.oldal-linkek {
+  position: sticky;
+  top: 0;
+}
+.oldal-linkek li {
+  list-style-type: none;
+}
+
 .linkek-es-szoveg {
   display: grid;
   grid-template-columns: 15% 85%;
@@ -316,7 +314,7 @@ footer {
   .linkek-es-szoveg {
     width: 100%;
   }
-  .bevezetes-image {
+  .bevezetes-image-container {
     max-width: 45%;
   }
 }
