@@ -127,6 +127,12 @@ main {
   text-align: center;
 }
 
+/*monitorok*/
+.oldal-linkek {
+  background-color: green;
+  width: 10%;
+}
+
 /* footer */
 footer {
   height: 5vh;
