@@ -130,7 +130,12 @@ main {
 /*monitorok*/
 .oldal-linkek {
   background-color: green;
-  width: 10%;
+}
+.linkek-es-szoveg {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.section-monitor {
 }
 
 /* footer */
