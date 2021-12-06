@@ -90,7 +90,7 @@ main {
   display: grid;
   justify-items: center;
 }
-.article {
+.linkek-es-szoveg {
   width: 50%;
   background-color: var(--articleBackgroundColor);
 }
@@ -117,11 +117,6 @@ main {
   width: 70%;
 }
 
-/* .section-bevezetes-kepek {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}*/
 .bevezetes-image-container {
   display: flex;
   flex-direction: column;
@@ -145,8 +140,6 @@ main {
   display: grid;
   grid-template-columns: 15% 85%;
 }
-/* .section-monitor {
-} */
 
 /* footer */
 footer {
@@ -198,7 +191,7 @@ footer {
   }
   /*bevezetes*/
 
-  .article {
+  .linkek-es-szoveg {
     width: 70%;
   }
 }
@@ -242,7 +235,7 @@ footer {
     width: 2.5%;
   }
   /*bevezetes*/
-  .article {
+  .linkek-es-szoveg {
     width: 60%;
   }
 }
@@ -252,7 +245,7 @@ footer {
     width: 3.4%;
   }
   /*bevezetes*/
-  .article {
+  .linkek-es-szoveg {
     width: 65%;
   }
 }
@@ -262,7 +255,7 @@ footer {
     width: 3.4%;
   }
   /*bevezetes*/
-  .article {
+  .linkek-es-szoveg {
     width: 70%;
   }
 }
@@ -306,7 +299,7 @@ footer {
     width: 65%;
   }
   /*bevezetes*/
-  .article {
+  .linkek-es-szoveg {
     width: 80%;
   }
 }
@@ -320,7 +313,7 @@ footer {
     width: 80%;
   }
   /*bevezetes*/
-  .article {
+  .linkek-es-szoveg {
     width: 80%;
   }
 }
