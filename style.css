@@ -99,8 +99,6 @@ main {
 
 .linkek-es-szoveg {
   width: 50%;
-}
-.linkek-es-szoveg {
   display: grid;
   grid-template-columns: 15% 85%;
 }
@@ -122,6 +120,9 @@ main {
 .oldal-linkek li {
   list-style-type: none;
 }
+.oldal-linkek a {
+  font-size: 0.9rem;
+}
 
 article {
   background-color: var(--articleBackgroundColor);
@@ -140,6 +141,12 @@ article * {
 p {
   text-align: justify;
   line-height: 1.2rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1rem;
 }
 .felsorolas {
   margin-left: 3.2rem;
