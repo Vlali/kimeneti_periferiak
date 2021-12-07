@@ -176,7 +176,16 @@ p {
   max-width: 100%;
 }
 .plazma-kep {
+  max-width: 62%;
+}
+.oled-kep {
   max-width: 100%;
+}
+.gsync-kep {
+  max-width: 100%;
+}
+.freesync-kep {
+  max-width: 83%;
 }
 
 /* footer */
