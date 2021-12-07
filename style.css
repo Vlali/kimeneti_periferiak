@@ -158,21 +158,24 @@ p {
 .kepfeletti-szoveg {
   text-align: center;
 }
-.article-image {
+.article-kep {
   display: block;
   margin: 0.5rem auto;
 }
 
 /*bevezetes*/
-.bevezetes-image {
+.bevezetes-kep {
   max-width: 45%;
 }
 
 /*monitorok*/
-.crt-monitor {
+.crt-kep {
   max-width: 100%;
 }
-.lcd-monitor {
+.lcd-kep {
+  max-width: 100%;
+}
+.plazma-kep {
   max-width: 100%;
 }
 
