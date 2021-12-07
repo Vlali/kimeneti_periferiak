@@ -59,49 +59,128 @@
           <div class="oldal-linkek">
             <h2>Oldal linkek:</h2>
             <ul>
-              <li><a href="#bev-cim-link">Bevezetés</a></li>
-              <li><a href="#bev-felsorolas-link">Felsorolás</a></li>
-              <li><a href="#multban-hasznalt-link">M.k. perifériái</a></li>
-              <li><a href="#jelenben-hasznalt-link">J.k. perifériái</a></li>
+              <!-- <li><a href="#bev-cim-link">Bevezetés</a></li> -->
+              <!-- <li><a href="#bev-felsorolas-link">Felsorolás</a></li> -->
+              <!-- <li><a href="#multban-hasznalt-link">M.k. perifériái</a></li>
+              <li><a href="#jelenben-hasznalt-link">J.k. perifériái</a></li> -->
             </ul>
           </div>
         </section>
         <article>
           <div class="cím">
-            <h1 id="bev-cim-link">Bevezetés</h1>
+            <h1 id="gr-cim-link">Grafikus kártyák</h1>
           </div>
           <p>
-            A kimeneti perifériák a számítógépek adatkivitelére szolgáló külső
-            egységek. A gép által végrehajtott feladatok eredményeit mutatják,
-            vagyis a géptől a felhasználó felé közvetítenek információkat.
+            A grafikus kártya kiszámolja a megjelenítendő képi adatot és elküldi
+            a monitor számára. Ezenfelül magas grafikai számításokat igénylő
+            alkalmazásokat szolgál ki.
           </p>
-          <p id="bev-felsorolas-link"><span class="bold">Felsorolás:</span></p>
-          <ul class="felsorolas">
-            <li>Monitor</li>
-            <li>Grafikus kártya</li>
-            <li>Nyomtato</li>
-            <li>Plotter(rajzgép)</li>
-            <li>Projektor(vetito)</li>
-            <li>Hangszóró</li>
-          </ul>
-          <p id="multban-hasznalt-link" class="kepfeletti-szoveg">
-            <span class="bold">Múlt kimeneti perifériái</span>
+          <h2>Integrált grafikus kártya</h2>
+          <p>
+            A processzorba van beleépítve és nem lehet fejleszteni vagy
+            kicserélni. Általában alsó és középkategóriás laptopokban található,
+            de sokan asztali számítógépekben is előnyben részesítik, ha nem
+            igényelnek erős grafikai műveleteket. Ezek a kártyák nem alkalmasak
+            számítógépes játékok és grafikai programok kiszolgálására.
           </p>
-
-          <img
-            class="bevezetes-kep article-kep"
-            src="images/bevezetes/multban_hasznalt.png"
-            alt="multban hasznalt periferiak"
-          />
-
-          <p id="jelenben-hasznalt-link" class="kepfeletti-szoveg">
-            <span class="bold">Jelen kimeneti perifériái</span>
+          <h2>Dedikált grafikus kártya</h2>
+          <p>
+            Az alaplaphoz egyedülálló egységként van csatlakoztatva, így a
+            felhasználó által cserélhető és fejleszthető. Magas grafikai
+            erőforrásokat igénylő alkalmazások kiszolgálására használatos. A
+            legnagyobb előnye a legnagyobb hátránya is egyben. Nagy
+            teljesítménye végett saját hűtésre van szüksége, nagyobb helyet
+            foglal és több energiát is fogyaszt.
           </p>
-          <img
-            class="bevezetes-kep article-kep"
-            src="images/bevezetes/jelenben_hasznalt.png"
-            alt="jelenben hasznalt periferiak"
-          />
+          <h2>Grafikus kártyák főbb paraméterei</h2>
+          <div class="felsorolas">
+            <p>
+              <span class="underline-bold"
+                >A grafikus feldolgozó egység órajele:
+              </span>
+              Ez a paraméter adja meg, hogy a GPU mekkora órajelen képes
+              üzemelni. Az órajel növelésévével a grafikus teljesítmény
+              exponenciálisan növekszik. A legújabb modellek képesek 1,7 GHz-en
+              működni. Az átlagos napi felhasználásra, a legalább 780 MHz -en
+              működő GPU-val felszerelt grafikus kártyák az ajánlottak.
+            </p>
+            <p>
+              <span class="underline-bold"
+                >A videómemória típusa és mérete: </span
+              >Általánosan a grafikus kártyák, amelyek nagyobb méretű
+              videómemória tárhellyel és annak újabb típusával rendelkeznek,
+              jobb teljesítményre képesek, de ez nem minden esetben igaz.
+            </p>
+            <p>
+              <span class="underline-bold"
+                >A grafikus kártya fogyasztása:
+              </span>
+              A számítógépekben a legnagyobb fogyasztónak számítanak. A kártya
+              teljesítményétől függően a ma használatos modellek fogyasztása 75
+              és 350 W között mozog.
+            </p>
+          </div>
+          <h2>Grafikus kártyák főbb elemei</h2>
+          <p>
+            A grafikus kártyák több fontosabb elemből épülnek fel, amelyek a
+            megfelelő működés szempontjából elengedhetetlennek számítanak.
+          </p>
+          <h2>Grafikus feldolgozó egység (GPU)</h2>
+          <p>
+            A grafikus feldolgozó egység a fő része a grafikus kártyának. Ez az
+            alkatrész felelős az ösz- szes grafikai számításért. Általában, a
+            legtöbb grafikus kártya csak egy GPU-val rendelkezik, de vannak
+            kártyák melyekben kettő is található. Ezen egységek működését az
+            architektúrájuk határozza meg, amelyet grafikus feldolgozó egység
+            architektúrának nevezünk. Különböző grafikus kártyák különböző
+            architektúrákkal rendelkeznek, ez általában gyártó függő. Az Nvidia
+            legújabb architektúrája az Ampere az AMD-nek pedig az RDNA ™ 2. Több
+            ezer mag található a GPU-ban melyek képesek párhuzamos
+            feldolgozásra, és többfeladatos használatra. Különböző gyártók
+            különböző neveket használnak ezeknek a magoknak a megnevezésére. Az
+            Nvidia Cuda magoknak, míg az Amd Stream magoknak nevezi őket. Ezek
+            egymástól különböző teljesítményre képesek, mivel különböző
+            architektúrával rendelkeznek. Általánosságban minél újabb
+            architektúrája van a grafikus feldolgozó egységnek, annál jobb a
+            teljesítménye és a fogyasztása is.
+          </p>
+          <h2>Videómemória</h2>
+          <p>
+            Ez a második legfontosabb egység a grafikus a kártyában. Ezen a
+            helyen van tárolva az összes grafikus adat és játék textúra, amit a
+            GPU feldolgoz. Az újabb típusú videómemória növelheti a grafikus
+            kártya teljesítményét, de ha a grafikus feldolgozó egység alacsony
+            órajellel rendelkezik, akkor sok különbséget a felhasználó nem fog
+            észrevenni.
+          </p>
+          <div class="felsorolas">
+            <p>
+              <span class="bold">GDDR5:</span>
+              A GDDR3-as és GDDR4 -es memóriák utódja. A belépő és közép szintű
+              grafikus kártyáknál használatos videó memória.
+            </p>
+            <p>
+              <span class="bold">GDDR5X:</span>A GDDR5 tovább fejlesztett
+              változata. Kétszer gyorsabb sebességet is elérhet, mint az utódja
+              és kevesebb a fogyasztása is. A régebbi generációs felsőkategóriás
+              grafikus kártyákban és nagy teljesítményű szerverekben
+              használatos.
+            </p>
+            <p>
+              <span class="bold">GDDR6:</span>A memória 10 nm-es építési
+              technológiával készült, ezáltal nagyobb grafikus teljesítményre
+              képes, mint az ötödik generációs memóriák. Felhasználási területe
+              elég széles körű. Használják mesterséges intelligencia képzésére,
+              kriptovaluta bányászatára és virtuális valóság kiszolgálására.
+              használatos.
+            </p>
+            <p>
+              <span class="bold">GDDR6X:</span>
+              A legújabb videómemória típus, amely képes 7680x4320p-es képi adat
+              kiszámolására, ezáltal a csúcskategóriás grafikus kártyákban
+              találkozunk velük.
+            </p>
+          </div>
         </article>
       </section>
     </main>

@@ -164,9 +164,10 @@ article * {
   margin: 0;
   font-weight: bold;
 }
-.underline {
+.underline-bold {
   margin: 0;
   text-decoration: underline;
+  font-weight: bold;
 }
 .kepfeletti-szoveg {
   text-align: center;
