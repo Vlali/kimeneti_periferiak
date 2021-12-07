@@ -101,6 +101,7 @@ main {
   width: 50%;
   display: grid;
   grid-template-columns: 15% 85%;
+  font-family: "Times New Roman", Times, serif;
 }
 .oldal-link-sav {
   background-color: green;
@@ -121,7 +122,18 @@ main {
   list-style-type: none;
 }
 .oldal-linkek a {
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+p {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 article {
@@ -138,21 +150,15 @@ article * {
   justify-content: center;
   align-items: center;
 }
-p {
-  text-align: justify;
-  line-height: 1.2rem;
+.cím h1 {
+  margin: 0;
 }
-h1 {
-  font-size: 1.5rem;
-}
-h2 {
-  font-size: 1rem;
-}
+
 .felsorolas {
   margin-left: 3.2rem;
 }
 .felsorolas * {
-  margin: 0.2rem;
+  margin: 0.3rem;
 }
 .bold {
   margin: 0;
