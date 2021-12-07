@@ -141,10 +141,10 @@ p {
   text-align: justify;
   line-height: 1.2rem;
 }
-.bevezetes-felsorolas {
-  margin-left: 1.5rem;
+.felsorolas {
+  margin-left: 3.2rem;
 }
-.bevezetes-felsorolas * {
+.felsorolas * {
   margin: 0.2rem;
 }
 .bold {
@@ -162,6 +162,7 @@ p {
   display: block;
   margin: 0.5rem auto;
 }
+
 /*bevezetes*/
 .bevezetes-image {
   max-width: 45%;
@@ -169,6 +170,9 @@ p {
 
 /*monitorok*/
 .crt-monitor {
+  max-width: 100%;
+}
+.lcd-monitor {
   max-width: 100%;
 }
 
