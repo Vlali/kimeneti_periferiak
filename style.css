@@ -160,6 +160,7 @@ p {
 }
 .article-kep {
   display: block;
+  border-radius: 1.1%;
   margin: 0.5rem auto;
 }
 
