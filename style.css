@@ -228,6 +228,9 @@ td {
 .vga-kep {
   max-width: 40%;
 }
+.dvi-kep {
+  max-width: 40%;
+}
 /* footer */
 footer {
   height: 5vh;
