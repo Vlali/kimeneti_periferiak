@@ -247,7 +247,13 @@ td {
 .nyomtato-param-felsorolas {
   margin-left: 3.2rem;
 }
-
+/*plotterek*/
+.sikagyas-plotter-kep {
+  max-width: 40%;
+}
+.dob-plotter-kep {
+  max-width: 40%;
+}
 /* footer */
 footer {
   height: 5vh;
