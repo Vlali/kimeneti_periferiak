@@ -1,50 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kimeneti perifériák</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="icon_container">
-                <img class="home_icon icon" src="images/icons/plotter_icon.png" alt="home_icon">
-            </div>
-            <ul class="nav-links">
-                <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
-                <li><a class="link_to_other_page" href="bevezetes.html">Bevezetés</a></li>
-                <li><a class="link_to_other_page" href="monitorok.html">Monitorok</a></li>
-                <li><a class="link_to_other_page" href="grafikus_kartyak.html">Grafikus kártyák</a></li>
-                <li><a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a></li>
-                <li><a class="link_to_other_page" href="plotterek.html">Plotterek</a></li>
-                <li><a class="link_to_other_page" href="projektorok.html">Projektorok</a></li>
-                <li><a class="link_to_other_page" href="hangszorok.html">Hangszórók</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-
-            </div>
-        </nav>
+      <nav>
+        <div class="icon_container">
+          <img
+            class="home_icon icon"
+            src="images/icons/plotter_icon.png"
+            alt="home_icon"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
+          <li>
+            <a class="link_to_other_page" href="bevezetes.html">Bevezetés</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="monitorok.html">Monitorok</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="grafikus_kartyak.html"
+              >Grafikus kártyák</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="plotterek.html">Plotterek</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="projektorok.html"
+              >Projektorok</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="hangszorok.html">Hangszórók</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
     </header>
-    <main class="main-article">
-        <section class="section-plotter article">
-            <div class="plotter-h1-container">
-                <h1>Plotterek</h1>
-            </div>
+    <main class="main-center">
+      <section class="linkek-es-szoveg">
+        <section class="oldal-link-sav">
+          <div class="oldal-linkek">
+            <h2>Oldal linkek:</h2>
+            <ul>
+              <li><a href="#bev-cim-link">Bevezetés</a></li>
+              <li><a href="#bev-felsorolas-link">Felsorolás</a></li>
+              <li><a href="#multban-hasznalt-link">M.k. perifériái</a></li>
+              <li><a href="#jelenben-hasznalt-link">J.k. perifériái</a></li>
+            </ul>
+          </div>
         </section>
+        <article>
+          <div class="cím">
+            <h1 id="plot-cim-link">Plotterek</h1>
+          </div>
+          <p>
+            A plotter a számítógép által küldött képet vonalak formájában
+            rajzolja ki a felhasználó által megadott felületre. Ezáltal a
+            működése eltér a nyomtatókétól, mivel azok vonalak helyett kicsi
+            pontokat visznek fel a papírra. A vonalakat valóban toll rajzolja,
+            ami akár színes is lehet. A toll adott vastagsággal rendelkezik,
+            tehát a felületek színezése csak satírozással lehetséges. A
+            rajzgépek akár nagyobb felületekre is képes rajzolni, ezért főleg
+            tervrajzok készítésére használják őket. A kirajzoltatni kívánt ábrát
+            először rajzprogramban megtervezzük, majd a számítógépben megadjuk a
+            koordinátákat a plotternek, hogy a papír melyik részére szeretnénk
+            az ábrát megjeleníteni. Amint ezekkel a lépésékkel elkészültünk a
+            számítógép elküldi a rajzgépnek az utasításokat.
+          </p>
+          <p><span class="bold">Előnyei:</span></p>
+          <ul class="felsorolas">
+            <li>
+              Nagyon sok fajta felületre pontosan tudnak rajzolni (alumínium,
+              műanyag, kartonpapír és akármilyen sima felületű fémre)
+            </li>
+            <li>Gyorsak</li>
+          </ul>
+          <p><span class="bold">Hátrányai:</span></p>
+          <ul class="felsorolas">
+            <li>Drágák</li>
+            <li>Nagy helyet foglalnak</li>
+          </ul>
+          <h2>Főbb típusai</h2>
+          <h2>Síkágyas plotter</h2>
+          <p>
+            Az e típusú plotternél a papírt egy nagy horizontális felszínnel
+            rendelkező felületre helyezzük. A rajzoló kar oda vissza mozog a
+            papír felett és megrajzolja a kívánt képet.
+          </p>
+        </article>
+      </section>
     </main>
     <footer>
-        <h1>thats my footer</h1>
+      <h1>thats my footer</h1>
     </footer>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
