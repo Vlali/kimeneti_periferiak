@@ -1,50 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kimeneti perifériák</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="icon_container">
-                <img class="home_icon icon" src="images/icons/speaker_icon.png" alt="home_icon">
-            </div>
-            <ul class="nav-links">
-                <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
-                <li><a class="link_to_other_page" href="bevezetes.html">Bevezetés</a></li>
-                <li><a class="link_to_other_page" href="monitorok.html">Monitorok</a></li>
-                <li><a class="link_to_other_page" href="grafikus_kartyak.html">Grafikus kártyák</a></li>
-                <li><a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a></li>
-                <li><a class="link_to_other_page" href="plotterek.html">Plotterek</a></li>
-                <li><a class="link_to_other_page" href="projektorok.html">Projektorok</a></li>
-                <li><a class="link_to_other_page" href="hangszorok.html">Hangszórók</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-
-            </div>
-        </nav>
+      <nav>
+        <div class="icon_container">
+          <img
+            class="home_icon icon"
+            src="images/icons/speaker_icon.png"
+            alt="home_icon"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
+          <li>
+            <a class="link_to_other_page" href="bevezetes.html">Bevezetés</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="monitorok.html">Monitorok</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="grafikus_kartyak.html"
+              >Grafikus kártyák</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="plotterek.html">Plotterek</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="projektorok.html"
+              >Projektorok</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="hangszorok.html">Hangszórók</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
     </header>
-    <main class="main-article">
-        <section class="section-hangszorok article">
-            <div class="hangszorok-h1-container">
-                <h1>Hangszórók</h1>
-            </div>
+    <main class="main-center">
+      <section class="linkek-es-szoveg">
+        <section class="oldal-link-sav">
+          <div class="oldal-linkek">
+            <h2>Oldal linkek:</h2>
+            <ul>
+              <li><a href="#bev-cim-link">Bevezetés</a></li>
+              <li><a href="#bev-felsorolas-link">Felsorolás</a></li>
+              <li><a href="#multban-hasznalt-link">M.k. perifériái</a></li>
+              <li><a href="#jelenben-hasznalt-link">J.k. perifériái</a></li>
+            </ul>
+          </div>
         </section>
+        <article>
+          <div class="cím">
+            <h1 id="bev-cim-link">Bevezetés</h1>
+          </div>
+          <p>
+            A kimeneti perifériák a számítógépek adatkivitelére szolgáló külső
+            egységek. A gép által végrehajtott feladatok eredményeit mutatják,
+            vagyis a géptől a felhasználó felé közvetítenek információkat.
+          </p>
+          <p id="bev-felsorolas-link"><span class="bold">Felsorolás:</span></p>
+          <ul class="felsorolas">
+            <li>Monitor</li>
+            <li>Grafikus kártya</li>
+            <li>Nyomtato</li>
+            <li>Plotter(rajzgép)</li>
+            <li>Projektor(vetito)</li>
+            <li>Hangszóró</li>
+          </ul>
+          <p id="multban-hasznalt-link" class="kepfeletti-szoveg">
+            <span class="bold">Múlt kimeneti perifériái</span>
+          </p>
+
+          <img
+            class="bevezetes-kep article-kep"
+            src="images/bevezetes/multban_hasznalt.png"
+            alt="multban hasznalt periferiak"
+          />
+
+          <p id="jelenben-hasznalt-link" class="kepfeletti-szoveg">
+            <span class="bold">Jelen kimeneti perifériái</span>
+          </p>
+          <img
+            class="bevezetes-kep article-kep"
+            src="images/bevezetes/jelenben_hasznalt.png"
+            alt="jelenben hasznalt periferiak"
+          />
+        </article>
+      </section>
     </main>
     <footer>
-        <h1>thats my footer</h1>
+      <h1>thats my footer</h1>
     </footer>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
