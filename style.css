@@ -172,6 +172,9 @@ article * {
 .kepfeletti-szoveg {
   text-align: center;
 }
+.kep-alatti-szoveg {
+  text-align: center;
+}
 .article-kep {
   display: block;
   border-radius: 1.1%;
@@ -212,7 +215,10 @@ td {
 .freesync-kep {
   max-width: 83%;
 }
-
+/*grafikus kartyak*/
+.huto-modul-kep {
+  max-width: 100%;
+}
 /* footer */
 footer {
   height: 5vh;
