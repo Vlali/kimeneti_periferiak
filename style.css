@@ -254,6 +254,9 @@ td {
 .dob-plotter-kep {
   max-width: 40%;
 }
+.vago-plotter-kep {
+  max-width: 40%;
+}
 /* footer */
 footer {
   height: 5vh;
