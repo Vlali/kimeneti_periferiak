@@ -231,6 +231,9 @@ td {
 .dvi-kep {
   max-width: 40%;
 }
+.hdmi-kep {
+  max-width: 40%;
+}
 /* footer */
 footer {
   height: 5vh;
