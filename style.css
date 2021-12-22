@@ -234,6 +234,12 @@ td {
 .hdmi-kep {
   max-width: 40%;
 }
+.displayport-kep {
+  max-width: 40%;
+}
+.monster-maze-kep {
+  max-width: 45%;
+}
 /* footer */
 footer {
   height: 5vh;
