@@ -219,6 +219,15 @@ td {
 .huto-modul-kep {
   max-width: 100%;
 }
+.isa-kep {
+  max-width: 40%;
+}
+.pci-express-kep {
+  max-width: 40%;
+}
+.vga-kep {
+  max-width: 40%;
+}
 /* footer */
 footer {
   height: 5vh;
