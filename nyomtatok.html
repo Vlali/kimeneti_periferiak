@@ -1,47 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kimeneti perifériák</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-    <div class="icon_container">
-        <img class="home_icon icon" src="images/icons/printer_icon.png" alt="home_icon">
-    </div>
-    <ul class="nav-links"> 
-        <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
-        <li><a class="link_to_other_page" href="bevezetes.html">Bevezetés</a></li>
-        <li><a class="link_to_other_page" href="monitorok.html">Monitorok</a></li>
-        <li><a class="link_to_other_page" href="grafikus_kartyak.html">Grafikus kártyák</a></li>
-        <li><a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a></li>
-        <li><a class="link_to_other_page" href="plotterek.html">Plotterek</a></li>
-        <li><a class="link_to_other_page" href="projektorok.html">Projektorok</a></li>
-        <li><a class="link_to_other_page" href="hangszorok.html">Hangszórók</a></li>
-    </ul>
-    <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-
-    </div>
-</nav>
-</header>
-<main class="main-article">
-    <section class="section-nyomtato article">
-        <div class="nyomtato-h1-container">
-            <h1>Nyomtatók</h1>
+      <nav>
+        <div class="icon_container">
+          <img
+            class="home_icon icon"
+            src="images/icons/printer_icon.png"
+            alt="home_icon"
+          />
         </div>
-    </section>
-</main>
-<footer>
-    <h1>thats my footer</h1>
-</footer>
+        <ul class="nav-links">
+          <li><a class="link_to_other_page" href="index.html">Kezdőlap</a></li>
+          <li>
+            <a class="link_to_other_page" href="bevezetes.html">Bevezetés</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="monitorok.html">Monitorok</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="grafikus_kartyak.html"
+              >Grafikus kártyák</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="nyomtatok.html">Nyomtatók</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="plotterek.html">Plotterek</a>
+          </li>
+          <li>
+            <a class="link_to_other_page" href="projektorok.html"
+              >Projektorok</a
+            >
+          </li>
+          <li>
+            <a class="link_to_other_page" href="hangszorok.html">Hangszórók</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-center">
+      <section class="linkek-es-szoveg">
+        <section class="oldal-link-sav">
+          <div class="oldal-linkek">
+            <h2>Oldal linkek:</h2>
+            <ul>
+              <li><a href="#bev-cim-link">Bevezetés</a></li>
+              <li><a href="#bev-felsorolas-link">Felsorolás</a></li>
+              <li><a href="#multban-hasznalt-link">M.k. perifériái</a></li>
+              <li><a href="#jelenben-hasznalt-link">J.k. perifériái</a></li>
+            </ul>
+          </div>
+        </section>
+        <article>
+          <div class="cím">
+            <h1 id="nyom-cim-link">Nyomtatók</h1>
+          </div>
+          <p>
+            A nyomtató egy elektronikai eszköz, ami a számítógéptől kapott
+            utasítások alapján egy papír felületen jelenít meg dokumentumokat
+            vagy képeket.
+          </p>
+          <img
+            class="nyomtato-kep article-kep"
+            src="images/nyomtato/nyomtato.png"
+            alt="Nyomtató felépítése"
+          />
+          <p class="kep-alatti-szoveg">A nyomtató felépítése látható</p>
+          <h2>Nyomtatók főbb paraméterei</h2>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <h1>thats my footer</h1>
+    </footer>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

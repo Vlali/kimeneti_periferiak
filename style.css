@@ -240,6 +240,11 @@ td {
 .monster-maze-kep {
   max-width: 45%;
 }
+/*nyomtatók*/
+.nyomtato-kep {
+  max-width: 100%;
+}
+
 /* footer */
 footer {
   height: 5vh;
