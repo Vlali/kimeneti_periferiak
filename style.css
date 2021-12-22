@@ -177,7 +177,17 @@ article * {
   border-radius: 1.1%;
   margin: 0.5rem auto;
 }
-
+/*tablazatok*/
+.tablazat {
+  width: 90%;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+.tablazat,
+th,
+td {
+  border: 1px solid black;
+}
 /*bevezetes*/
 .bevezetes-kep {
   max-width: 45%;
