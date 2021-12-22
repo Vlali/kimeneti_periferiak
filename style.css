@@ -257,6 +257,10 @@ td {
 .vago-plotter-kep {
   max-width: 40%;
 }
+/*projektorok*/
+.projektorok-kep {
+  max-width: 70%;
+}
 /* footer */
 footer {
   height: 5vh;
