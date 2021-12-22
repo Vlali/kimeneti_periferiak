@@ -244,6 +244,9 @@ td {
 .nyomtato-kep {
   max-width: 100%;
 }
+.nyomtato-param-felsorolas {
+  margin-left: 3.2rem;
+}
 
 /* footer */
 footer {
