@@ -72,9 +72,9 @@ const anchorColor = () => {
       break;
     case "hivatkozasok.html":
       anchor[8].style.borderBottom = "1px solid red";
-      oldal_sav.style.display = "none";
-      linkek_es_szoveg.style.width = "50%";
-      linkek_es_szoveg.style.gridTemplateColumns = "0% 100%";
+      // oldal_sav.style.display = "none";
+      // linkek_es_szoveg.style.width = "100%";
+      // linkek_es_szoveg.style.gridTemplateColumns = "0% 100%";
       break;
     default:
       anchor[0].style.borderBottom = "1px solid red";
