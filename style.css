@@ -2,7 +2,7 @@
   --navBackgroundColor: rgb(59, 88, 185);
   --navLinkColor: rgb(226, 226, 226);
   --navLinkBackgroundColor: rgb(128, 128, 128);
-  --linkHover: rgb(251, 255, 0);
+  --ForrasLinkHover: rgb(251, 255, 0);
   --burgerBackgroundColor: rgb(226, 226, 226);
   --firstCenterColor: rgb(226, 226, 226);
   --articleBackgroundColor: rgb(177, 213, 219);
@@ -273,7 +273,7 @@ td {
   font-size: 1.1rem;
 }
 .hivatkozas-link:hover {
-  color: var(--linkHover);
+  color: var(--ForrasLinkHover);
 }
 /* footer */
 footer {
