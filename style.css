@@ -312,7 +312,7 @@ footer {
     font-size: 1.3rem;
   }
 }
-/*Itt valt at a navigacios sav*/
+/*Itt vált át a navigációs sáv*/
 @media screen and (max-width: 1000px) {
   /* navigáció */
   nav {
@@ -355,7 +355,6 @@ footer {
     max-width: 100%;
   }
 }
-/*you need to pass it under the media screen*/
 .nav-active {
   transform: translateX(0%);
 }
@@ -363,7 +362,7 @@ footer {
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translateX(50px); /*how fast the link are coming*/
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
@@ -392,7 +391,7 @@ footer {
   .icon_container {
     width: 2.5%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 70%;
   }
@@ -402,7 +401,7 @@ footer {
   .icon_container {
     width: 3.4%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 80%;
   }
@@ -413,7 +412,7 @@ footer {
     width: 3.4%;
   }
 
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 90%;
     grid-template-columns: 30% 70%;
@@ -428,7 +427,7 @@ footer {
   .center_gif img {
     width: 30%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 95%;
     grid-template-columns: 30% 70%;
@@ -437,13 +436,13 @@ footer {
 @media screen and (min-width: 600px) and (max-width: 799px) {
   /* navigáció */
   .icon_container {
-    width: 7%;
+    width: 6%;
   }
   /*main*/
   .center_gif img {
     width: 50%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 100%;
     grid-template-columns: 30% 70%;
@@ -458,7 +457,7 @@ footer {
   .center_gif img {
     width: 50%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 80%;
     grid-template-columns: 0% 100%;
@@ -473,7 +472,7 @@ footer {
   .center_gif img {
     width: 65%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 80%;
     grid-template-columns: 0% 100%;
@@ -488,14 +487,14 @@ footer {
   .center_gif img {
     width: 80%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 100%;
   }
   .bevezetes-image {
     max-width: 45%;
   }
-  /*bevezetes*/
+  /*bevezetés*/
   .linkek-es-szoveg {
     width: 100%;
     grid-template-columns: 0% 100%;

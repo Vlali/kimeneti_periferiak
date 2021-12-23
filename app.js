@@ -3,33 +3,30 @@ const navSlide = () => {
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
   let flag = false;
-  //Toggle Nav
 
   burger.addEventListener("click", () => {
     nav.style.opacity = 1;
 
-    nav.classList.toggle("nav-active"); //thats move our side nava
+    nav.classList.toggle("nav-active");
     navLinks.forEach((link, index) => {
       if (link.style.animation) {
-        link.style.animation = ""; //if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
+        link.style.animation = "";
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${
           index / 7 + 0.5
         }s`;
       }
     });
-    burger.classList.toggle("toggle"); //this rotates the lines
-  }); /*The toggle() method toggles between hide() and show() for the selected elements. This method checks the selected elements for visibility. show() is run if an element is hidden. hide() is run if an element is visible - This creates a toggle effect. ... Tip: This method can also be used to toggle between custom functions.*/
+    burger.classList.toggle("toggle");
+  });
 
   navLinks.forEach((link) => {
     link.addEventListener("click", () => {
       nav.classList.toggle("nav-active");
       flag = true;
-      //if the we click on the button and it has a animation on it,deletes it,thats why our animation will be repeated every time if we a open a burger
       if (flag === true) {
         navLinks.forEach((linke) => {
           linke.style.animation = "";
-          // nav.style.opacity = 0;
         });
       }
 
@@ -72,9 +69,6 @@ const anchorColor = () => {
       break;
     case "hivatkozasok.html":
       anchor[8].style.borderBottom = "1px solid red";
-      // oldal_sav.style.display = "none";
-      // linkek_es_szoveg.style.width = "100%";
-      // linkek_es_szoveg.style.gridTemplateColumns = "0% 100%";
       break;
     default:
       anchor[0].style.borderBottom = "1px solid red";
