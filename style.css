@@ -65,8 +65,7 @@ a {
 a:hover {
   color: var(--linkHover);
 }
-
-/*index main */
+/*kezdolap*/
 main {
   margin-top: 0vh;
   min-height: 90vh;
@@ -81,7 +80,6 @@ main {
   text-align: center;
   color: var(--firstCenterColor);
 }
-
 .center_gif {
   display: flex;
   width: 100%;
@@ -90,14 +88,24 @@ main {
 .center_gif img {
   width: 25%;
 }
+.kezdolap-szoveg {
+  color: var(--kezdolapSzovegSzin);
+}
+h1.kezdolap-szoveg {
+  font-size: 1.8rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+p.kezdolap-szoveg {
+  font-size: 1.2rem;
+  font-family: "Oooh Baby", cursive;
+}
 
+/*cikkek*/
 .main-center {
   display: grid;
   justify-items: center;
 }
-
-/*cikkek*/
-
 .linkek-es-szoveg {
   width: 57%;
   display: grid;
@@ -194,19 +202,7 @@ th,
 td {
   border: 1px solid var(--tableBorderColor);
 }
-/*kezdolap*/
-.kezdolap-szoveg {
-  color: var(--kezdolapSzovegSzin);
-}
-h1.kezdolap-szoveg {
-  font-size: 1.8rem;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-}
-p.kezdolap-szoveg {
-  font-size: 1.2rem;
-  font-family: "Oooh Baby", cursive;
-}
+
 /*bevezetes*/
 .bevezetes-kep {
   max-width: 45%;
