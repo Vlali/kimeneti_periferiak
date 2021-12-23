@@ -321,7 +321,7 @@ footer {
 }
 @media screen and (max-width: 599px) {
   .article-kep {
-    max-width: 100%;
+    max-width: 80%;
   }
   .oldal-linkek {
     display: none;
