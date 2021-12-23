@@ -98,9 +98,9 @@ main {
 /*cikkek*/
 
 .linkek-es-szoveg {
-  width: 55%;
+  width: 57%;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 23% 77%;
   font-family: "Times New Roman", Times, serif;
 }
 .oldal-link-sav {
