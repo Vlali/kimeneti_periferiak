@@ -10,6 +10,7 @@
   --oldalLinkSav: rgb(35, 138, 151);
   --linkHover: rgb(255, 0, 0);
   --hivatkozasLinkColor: rgb(0, 0, 0);
+  --tableBorderColor: rgb(0, 0, 0);
   --footerBackgroundColor: rgb(59, 88, 185);
   --footerColor: rgb(226, 226, 226);
   --nameEmailColor: rgb(0, 0, 0);
@@ -191,7 +192,7 @@ article * {
 .tablazat,
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid var(--tableBorderColor);
 }
 /*kezdolap*/
 .kezdolap-szoveg {
@@ -199,9 +200,12 @@ td {
 }
 h1.kezdolap-szoveg {
   font-size: 1.8rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 p.kezdolap-szoveg {
   font-size: 1.2rem;
+  font-family: "Oooh Baby", cursive;
 }
 /*bevezetes*/
 .bevezetes-kep {
