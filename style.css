@@ -3,9 +3,11 @@
   --navLinkColor: rgb(226, 226, 226);
   --navLinkBackgroundColor: rgb(93, 73, 84);
   --burgerBackgroundColor: rgb(226, 226, 226);
-  --footerBackgroundColor: rgb(59, 88, 185);
   --firstCenterColor: rgb(226, 226, 226);
   --articleBackgroundColor: rgb(177, 213, 219);
+  --footerBackgroundColor: rgb(59, 88, 185);
+  --footerColor: rgb(226, 226, 226);
+  --nameEmailColor: rgba(14, 13, 13, 0.87);
 }
 
 * {
@@ -206,7 +208,7 @@ td {
   max-width: 100%;
 }
 .plazma-kep {
-  max-width: 62%;
+  max-width: 72%;
 }
 .oled-kep {
   max-width: 100%;
@@ -271,9 +273,17 @@ td {
 footer {
   height: 5vh;
   background-color: var(--footerBackgroundColor);
+  color: var(--footerColor);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nameEmail {
+  color: var(--nameEmailColor);
+  font-weight: bold;
+}
+.nameEmail:hover {
+  color: red;
 }
 
 @media screen and (min-width: 1001px) {
