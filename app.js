@@ -39,6 +39,8 @@ const navSlide = () => {
 };
 const anchorColor = () => {
   const anchor = document.querySelectorAll(".link-a-kov-oldalra");
+  const oldal_sav = document.querySelector(".oldal-linkek");
+  const linkek_es_szoveg = document.querySelector(".linkek-es-szoveg");
   const currentPage = window.location.href.split("/")[3];
   switch (currentPage) {
     case "":
@@ -70,6 +72,9 @@ const anchorColor = () => {
       break;
     case "hivatkozasok.html":
       anchor[8].style.borderBottom = "1px solid red";
+      oldal_sav.style.display = "none";
+      linkek_es_szoveg.style.width = "50%";
+      linkek_es_szoveg.style.gridTemplateColumns = "0% 100%";
       break;
     default:
       anchor[0].style.borderBottom = "1px solid red";
