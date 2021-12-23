@@ -466,7 +466,7 @@ footer {
 @media screen and (max-width: 399px) {
   /* navigáció */
   .icon_container {
-    width: 12%;
+    width: 11%;
   }
   /*main*/
   .center_gif img {
