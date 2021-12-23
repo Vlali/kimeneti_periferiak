@@ -261,6 +261,10 @@ td {
 .projektorok-kep {
   max-width: 70%;
 }
+/*hangszorok*/
+.hangszoro-kep {
+  max-width: 30%;
+}
 /* footer */
 footer {
   height: 5vh;
