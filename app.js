@@ -68,6 +68,9 @@ const anchorColor = () => {
     case "hangszorok.html":
       anchor[7].style.borderBottom = "1px solid red";
       break;
+    case "hivatkozasok.html":
+      anchor[8].style.borderBottom = "1px solid red";
+      break;
     default:
       anchor[0].style.borderBottom = "1px solid red";
       break;
