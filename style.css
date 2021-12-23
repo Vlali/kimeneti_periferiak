@@ -320,11 +320,13 @@ footer {
   }
 }
 @media screen and (max-width: 599px) {
-  .article-kep {
-    max-width: 80%;
-  }
   .oldal-linkek {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .article-kep {
+    max-width: 100%;
   }
 }
 /*you need to pass it under the media screen*/
