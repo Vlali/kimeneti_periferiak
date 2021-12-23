@@ -1,11 +1,12 @@
 :root {
   --navBackgroundColor: rgb(59, 88, 185);
   --navLinkColor: rgb(226, 226, 226);
-  --navLinkBackgroundColor: rgb(93, 73, 84);
+  --navLinkBackgroundColor: rgb(128, 128, 128);
   --linkHover: rgb(251, 255, 0);
   --burgerBackgroundColor: rgb(226, 226, 226);
   --firstCenterColor: rgb(226, 226, 226);
   --articleBackgroundColor: rgb(177, 213, 219);
+  --linkHover: rgb(255, 0, 0);
   --hivatkozasLinkColor: rgb(0, 0, 0);
   --footerBackgroundColor: rgb(59, 88, 185);
   --footerColor: rgb(226, 226, 226);
@@ -59,7 +60,7 @@ a {
   cursor: pointer;
 }
 a:hover {
-  color: red;
+  color: var(--linkHover);
 }
 
 /*index main */
@@ -287,7 +288,7 @@ footer {
   font-weight: bold;
 }
 .nameEmail:hover {
-  color: red;
+  color: var(--linkHover);
 }
 
 @media screen and (min-width: 1001px) {
