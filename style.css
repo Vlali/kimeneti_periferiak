@@ -316,7 +316,11 @@ footer {
     margin-top: 5vh;
   }
 }
-
+@media screen and (max-width: 599px) {
+  .oldal-linkek {
+    display: none;
+  }
+}
 /*you need to pass it under the media screen*/
 .nav-active {
   transform: translateX(0%);
@@ -425,9 +429,6 @@ footer {
     width: 80%;
     grid-template-columns: 0% 100%;
   }
-  /* .oldal-link-sav {
-    display: none;
-  } */
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
   /* navigáció */
@@ -441,6 +442,7 @@ footer {
   /*bevezetes*/
   .linkek-es-szoveg {
     width: 80%;
+    grid-template-columns: 0% 100%;
   }
 }
 @media screen and (max-width: 399px) {
@@ -458,5 +460,10 @@ footer {
   }
   .bevezetes-image {
     max-width: 45%;
+  }
+  /*bevezetes*/
+  .linkek-es-szoveg {
+    width: 100%;
+    grid-template-columns: 0% 100%;
   }
 }
