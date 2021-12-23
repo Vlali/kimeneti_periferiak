@@ -122,20 +122,22 @@ main {
   list-style-type: none;
 }
 .oldal-linkek a {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 h1 {
   font-size: 1.5rem;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 p {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.2rem;
 }
-
+li {
+  font-size: 1.1rem;
+}
 article {
   background-color: var(--articleBackgroundColor);
 }
@@ -284,7 +286,7 @@ footer {
     font-size: 1.3rem;
   }
 }
-/*Itt valt at avigacios sav*/
+/*Itt valt at a navigacios sav*/
 @media screen and (max-width: 1000px) {
   /* navigáció */
   nav {
@@ -313,13 +315,7 @@ footer {
   main {
     margin-top: 5vh;
   }
-  /*bevezetes*/
-
-  .linkek-es-szoveg {
-    width: 70%;
-  }
 }
-/*menu icon changing*/
 
 /*you need to pass it under the media screen*/
 .nav-active {
@@ -360,7 +356,7 @@ footer {
   }
   /*bevezetes*/
   .linkek-es-szoveg {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -370,7 +366,7 @@ footer {
   }
   /*bevezetes*/
   .linkek-es-szoveg {
-    width: 65%;
+    width: 80%;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -378,9 +374,11 @@ footer {
   .icon_container {
     width: 3.4%;
   }
+
   /*bevezetes*/
   .linkek-es-szoveg {
-    width: 70%;
+    width: 90%;
+    grid-template-columns: 30% 70%;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 999px) {
@@ -392,6 +390,11 @@ footer {
   .center_gif img {
     width: 30%;
   }
+  /*bevezetes*/
+  .linkek-es-szoveg {
+    width: 95%;
+    grid-template-columns: 30% 70%;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 799px) {
   /* navigáció */
@@ -401,6 +404,11 @@ footer {
   /*main*/
   .center_gif img {
     width: 50%;
+  }
+  /*bevezetes*/
+  .linkek-es-szoveg {
+    width: 100%;
+    grid-template-columns: 30% 70%;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 599px) {
@@ -412,6 +420,14 @@ footer {
   .center_gif img {
     width: 50%;
   }
+  /*bevezetes*/
+  .linkek-es-szoveg {
+    width: 80%;
+    grid-template-columns: 0% 100%;
+  }
+  /* .oldal-link-sav {
+    display: none;
+  } */
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
   /* navigáció */
