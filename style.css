@@ -6,6 +6,7 @@
   --burgerBackgroundColor: rgb(226, 226, 226);
   --firstCenterColor: rgb(226, 226, 226);
   --articleBackgroundColor: rgb(177, 213, 219);
+  --oldalLinkSav: rgb(35, 138, 151);
   --linkHover: rgb(255, 0, 0);
   --hivatkozasLinkColor: rgb(0, 0, 0);
   --footerBackgroundColor: rgb(59, 88, 185);
@@ -103,7 +104,7 @@ main {
   font-family: "Times New Roman", Times, serif;
 }
 .oldal-link-sav {
-  background-color: green;
+  background-color: var(--oldalLinkSav);
   text-align: center;
 }
 
