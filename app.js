@@ -36,8 +36,6 @@ const navSlide = () => {
 };
 const anchorColor = () => {
   const anchor = document.querySelectorAll(".link-a-kov-oldalra");
-  const oldal_sav = document.querySelector(".oldal-linkek");
-  const linkek_es_szoveg = document.querySelector(".linkek-es-szoveg");
   const currentPage = window.location.href.split("/")[3];
   switch (currentPage) {
     case "":
