@@ -65,7 +65,7 @@ a {
 a:hover {
   color: var(--linkHover);
 }
-/*kezdolap*/
+/*kezdőlap*/
 main {
   margin-top: 0vh;
   min-height: 90vh;
@@ -191,7 +191,7 @@ article * {
   border-radius: 1.1%;
   margin: 0.5rem auto;
 }
-/*tablazatok*/
+/*táblázatok*/
 .tablazat {
   width: 90%;
   text-align: center;
@@ -203,7 +203,7 @@ td {
   border: 1px solid var(--tableBorderColor);
 }
 
-/*bevezetes*/
+/*bevezetés*/
 .bevezetes-kep {
   max-width: 45%;
 }
@@ -227,7 +227,7 @@ td {
 .freesync-kep {
   max-width: 83%;
 }
-/*grafikus kartyak*/
+/*grafikus kártyák*/
 .huto-modul-kep {
   max-width: 100%;
 }
@@ -273,11 +273,11 @@ td {
 .projektorok-kep {
   max-width: 70%;
 }
-/*hangszorok*/
+/*hangszórók*/
 .hangszoro-kep {
   max-width: 30%;
 }
-/*hivatkozasok*/
+/*hivatkozások*/
 .hivatkozas-link {
   color: var(--hivatkozasLinkColor);
   font-size: 1.1rem;
