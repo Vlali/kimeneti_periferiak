@@ -1,3 +1,3 @@
 # kimeneti_periferiak
 
-[leadando.netify.app](https://leadando.netlify.app/)
+[https://kimeneti-periferiak.herokuapp.com/](https://kimeneti-periferiak.herokuapp.com/)
